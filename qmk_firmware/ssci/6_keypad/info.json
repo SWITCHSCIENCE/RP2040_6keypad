@@ -1,0 +1,43 @@
+{
+    "manufacturer": "Switch Science",
+    "keyboard_name": "6_keypad",
+    "maintainer": "Switch Science",
+    "bootloader": "rp2040",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": false,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct":[
+            ["GP0", null],
+            ["GP1", null],
+            ["GP2", null],
+            ["GP3", null],
+            ["GP4", null],
+            ["GP5", null]
+        ]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x2046",
+        "vid": "0x2786"
+    },
+    "layouts": {
+        "LAYOUT_all": {
+            "layout": [
+                {"label": "GP0", "matrix": [0, 0], "x": 0, "y": 0},
+                {"label": "GP1", "matrix": [1, 0], "x": 0, "y": 1},
+                {"label": "GP2", "matrix": [2, 0], "x": 0, "y": 3},
+                {"label": "GP3", "matrix": [3, 0], "x": 0, "y": 4},
+                {"label": "GP4", "matrix": [4, 0], "x": 0, "y": 5},
+                {"label": "GP5", "matrix": [5, 0], "x": 0, "y": 6}
+            ]
+        }
+    }
+}
