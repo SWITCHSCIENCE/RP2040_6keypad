@@ -2,9 +2,15 @@
 
 This repository contains KiCad data for 6keypads using the Switch Science RP2040 breakout board.
 
+[Picossci RP2040 ピッチ変換基板](https://ssci.to/8440)を利用したKiCadサンプルデータのリポジトリです。
+
 ## KiCad_Project
 
 KiCadプロジェクトです。回路図PDFを含みます。
+
+## RP2040_breakout_KiCad_Symbol
+
+[Picossci RP2040 ピッチ変換基板](https://ssci.to/8440)のKiCad用回路図シンボルとフットプリントデータです。この基板の販売ページで配布されている物と同じです。
 
 ## sample_software/rp2040_6key_pad_example
 
