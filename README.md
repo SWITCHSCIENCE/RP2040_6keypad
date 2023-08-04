@@ -2,6 +2,10 @@
 
 This repository contains KiCad data for 6keypads using the Switch Science RP2040 breakout board.
 
+## KiCad_Project
+
+KiCadプロジェクトです。回路図PDFを含みます。
+
 ## sample_software/rp2040_6key_pad_example
 
 Raspberry Pi Pico C/C++ SDKを用いた簡単なサンプルソフトウェアです。USBシリアル変換アダプターとして機能し、押されたキーの番号をPCのシリアルポートへ送信します。
