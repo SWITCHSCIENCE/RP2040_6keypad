@@ -25,4 +25,5 @@ QMK Firmwareをrp2040 6-key padに対応させるための設定ファイルと�
 
 ## prk_firmware/keymap.rb
 
-PRK Firmware用のキーボード設定ファイルです。[PRK Firmware](https://github.com/picoruby/prk_firmware)のuf2ファイルを書き込み後、このファイルkeymap.rbをコピーしてください。
+PRK Firmware用のキーボード設定ファイルです。[PRK Firmware](https://github.com/picoruby/prk_firmware)のuf2ファイルを書き込み後、このファイルkeymap.rbをコピーしてください。キーマップや挙動を変更する時はこのkeymap.rbを書き換えるだけでいいのでQMK Firmwareに比べて試行が簡単です。
+6つのキーには123456の数字を割り当ててあり、14、25、36のキーそれぞれを押すと対応したLEDが光ります。
